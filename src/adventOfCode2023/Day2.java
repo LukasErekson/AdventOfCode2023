@@ -12,11 +12,11 @@ public class Day2 {
 		int maxBlue = 14;
 	
 		// Part 1
-		int sumPossibleGameIDs = sumPossibleGameNums("AdventOfCodeDay2Pt1.txt", maxRed, maxGreen, maxBlue);
+		int sumPossibleGameIDs = sumPossibleGameNums("inputFiles/AdventOfCodeDay2Pt1.txt", maxRed, maxGreen, maxBlue);
 		System.out.printf("The sum of possible game IDs is %d.\n", sumPossibleGameIDs);
 	
 		// Part 2
-		int powerSum = sumPowerCubeSets("AdventOfCodeDay2Pt1.txt");
+		int powerSum = sumPowerCubeSets("inputFiles/AdventOfCodeDay2Pt1.txt");
 		System.out.printf("The sum of the power of the cube sets is %d.\n", powerSum);
 	}
 	

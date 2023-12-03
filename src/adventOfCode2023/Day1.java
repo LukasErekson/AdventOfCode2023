@@ -20,7 +20,7 @@ public class Day1 {
 		writtenNumbers.put("eight", '8');
 		writtenNumbers.put("nine", '9');	
 
-		ArrayList<Integer> parsedValues = parseCalibrationFile("adventOfCodeDay1.txt");
+		ArrayList<Integer> parsedValues = parseCalibrationFile("inputFiles/adventOfCodeDay1.txt");
 		
 		
 		Integer calibrationSum = 0;
